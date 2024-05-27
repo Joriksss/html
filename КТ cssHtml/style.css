@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(57, 4, 250);
+    
+}
+.top{
+    height: calc(100vh - 100px);
+    padding: 50px 0 50px 50px;
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 3rem;
+    text-align: right;
+}
+h1, h3 {
+    color: white;
+    display: inline-block;
+    width: 50%;
+    font-weight: 400;
+    margin: 0;
+}
+
+.scroll{
+    margin-left: 250px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin: 0 auto;
+    white-space: nowrap
+}
+main {
+    height: 800px;
+    font-size: 0;
+    overflow-x: auto;
+}
+
+header {
+    font-size: 0;
+    margin: 0 50px 50px 0;
+}
+
+.group{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.table{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.group_2 *:not(.table) {
+    background: rgb(0, 174, 255);
+}
+
+.group_3 *:not(.table) {
+    background: rgb(255, 208, 0);
+}
+.group_4 *:not(.table){
+    background: rgb(248, 3, 3);
+}
+.group_5 *:not(.table) {
+    background: rgb(47, 28, 63);
+}
+.group_6 *:not(.table){
+    background: rgb(247, 180, 180);
+}
+.group_7 *:not(.table){
+    background: rgb(53, 199, 114);
+}
+
+.block{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgb(30, 250, 9);
+    margin: 5px;
+}
+.block_small{
+    height: 50px;
+    width: 54px;
+    margin: 5px;
+}
+.block_big{
+    height: 120px;
+    width: 250px;
+    background-color: rgb(30, 250, 9);
+    margin: 5px;
+}
+.big{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(30, 250, 9);
+    margin: 5px;
+}

@@ -1,0 +1,17 @@
+h2
+{
+    color: rgb(13, 226, 13);
+    font-size: 50px;
+    text-align: center;
+}
+h3
+{
+    color:rgb(178, 224, 10);
+    border: solid rgb(52, 245, 3);
+    border-radius: 10px;
+}
+
+body{
+    background-image: url('image/impala.jpg');
+    background-size: auto;
+}

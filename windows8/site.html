@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Windows 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Пуск</h1>
+			<h3>User</h3>
+		</header>
+		<main>
+			<div class="scroll">
+				<div class="group group_1">
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="middle"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small mb0"></div>
+						<div class="small mr0 mb0"></div>
+					</div>
+				</div>
+				<div class="group group_2">
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="middle"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small mb0"></div>
+						<div class="small mr0 mb0"></div>
+					</div>
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="middle"></div>
+					</div>
+				</div>
+				<div class="group group_3">
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+					</div>
+				</div>
+				<div class="group group_4">
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="big"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small mb0"></div>
+						<div class="small mr0 mb0"></div>
+					</div>
+				</div>
+				<div class="group group_5">
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="big mb0"></div>
+					</div>
+					<div class="column">
+						<div class="middle"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+					</div>
+				</div>
+				<div class="group group_6">
+					<div class="column">
+						<div class="middle"></div>
+						<div class="middle"></div>
+						<div class="middle"></div>
+						<div class="middle"></div>
+						<div class="middle mb0"></div>
+					</div>
+				</div>
+				<div class="group group_7">
+					<div class="column">
+						<div class="middle"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="middle"></div>
+						<div class="small mb0"></div>
+						<div class="small mr0 mb0"></div>
+					</div>
+					<div class="column">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+					</div>
+				</div>
+				<div class="group group_8">
+					<div class="column">
+						<div class="middle"></div>
+						<div class="middle"></div>
+						<div class="big"></div>
+						<div class="middle mb0"></div>
+					</div>
+				</div>
+				<div class="group group_9 mr0">
+					<div class="column mr0">
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+						<div class="small"></div>
+						<div class="small mr0"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

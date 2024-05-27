@@ -1,0 +1,304 @@
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 216px;
+    left: 0;
+    right: 0;
+    top: 1598px;
+    bottom: 0;
+}
+
+.line{
+    position: absolute;
+    width: 1300px;
+    height: 0;
+    left: 70px;
+    top: 0;
+    border: 1px solid rgb(15, 15, 15);
+}
+
+.Logo{
+    position: absolute;
+    width: 111px;
+    height: 56px;
+    left: 150px;
+    right: 1179px;
+    top: 40px;
+    bottom: 120px;
+}
+
+.fmenu{
+    position: absolute;
+    width: 374px;
+    height: 26px;
+    left: 474px;
+    right: 533px;
+    top: 55px;
+    bottom: 135px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.fRest{
+    /* О ресторане */
+    position: static;
+    width: 93px;
+    height: 26px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.fRest:hover{
+    color: rgb(254, 214, 50);
+}
+
+.fMen{
+    /* Меню */
+    position: static;
+    width: 45px;
+    height: 26px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.fMen:hover{
+    color: rgb(254, 214, 50);
+}
+
+.fBanq{
+    /* Банкеты */
+    position: static;
+    width: 66px;
+    height: 26px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 32px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.fBanq:hover{
+    color: rgb(254, 214, 50);
+}
+
+.fConct{
+    /* Контакты */
+    position: static;
+    width: 74px;
+    height: 26px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 32px;
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.fConct:hover{
+    color: rgb(254, 214, 50);
+}
+
+.fbtn{
+    position: absolute;
+    width: 175px;
+    height: 41px;
+    left: 1115px;
+    top: 47px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 28px 8px 28px;
+    box-sizing: border-box;
+    border: 1.3px solid rgb(15, 15, 15);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.fbtn:hover{
+    box-sizing: border-box;
+    border: 2px solid rgb(254, 214, 50);
+    border-radius: 2px;
+}
+
+.fbtn:active{
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+}
+
+.fbtn h1{
+    position: static;
+    width: 119px;
+    height: 25px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 28px 8px 28px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Footback */
+.footback{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0;
+    right: 0;
+    top: 136px;
+    bottom: 0;
+    background: rgb(15, 15, 15);
+}
+
+.fsocial{
+    position: absolute;
+    width: 61px;
+    height: 24px;
+    left: 1229px;
+    right: 150px;
+    top: 28px;
+    bottom: 28px;
+}
+
+.txt1{
+    /* 2016 - 2024 © Limoncello */
+    position: absolute;
+    width: 161px;
+    height: 22px;
+    left: 150px;
+    right: 1129px;
+    top: 20px;
+    bottom: 29px;
+    /* Шрифт */
+    color: rgb(160, 160, 160);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txt2{
+    /* Политика конфиденциальности */
+    position: absolute;
+    width: 212px;
+    height: 22px;
+    left: 614px;
+    right: 614px;
+    top: 20px;
+    bottom: 29px;
+    /* Шрифт */
+    color: rgb(160, 160, 160);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.fInst{
+    /* instagram */
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+/* .fInst:hover{
+
+} */
+
+.fWhats{
+    /* whatsapp */
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+/* .fWhats:hover{
+
+} */
+

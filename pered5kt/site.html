@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            background: purple;
+            color: whitesmoke;
+            font-size: 28px;
+            padding: 10px;
+            width: 300px;
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            margin-top: 30px;
+
+            position: relative;
+            left: 0px;
+
+            animation: circleanim 3s linear infinite alternate-reverse;
+        }
+        .h2{
+            font-size: 120px;
+            animation: anim_h2 2s infinite;
+        }
+
+        @keyframes circleanim{
+            0%{
+                left: 0px;
+            }
+            50%{
+                border-radius: 12px;
+                background-color: blue;
+            }
+            100%{
+                left: 1370px;
+            }
+        }
+
+        @keyframes anim_h2{
+            0%{
+                opacity: 0%;
+            }
+            100%{
+                opacity: 100%;
+                color: aqua;
+            }
+        }
+
+        .box{
+            border: 1px solid white;
+            padding: 5px;
+        }
+
+        .col1{
+            background-color: teal;
+            /* position: fixed;  */
+            /* position: sticky;
+            top: 0px; */
+        }
+
+        .col2{
+            background-color: blue;
+            /* position: absolute;
+            left: 250px;
+            z-index: 5; */
+        }
+
+        .col3{
+            background-color: violet;
+            /* position: relative;
+            z-index: 5; */
+        }
+
+        .col4{
+            background-color: crimson;
+        }
+        
+        .col5{
+            background-color: black;
+        }
+
+        .col1:hover{
+            background-color: brown;
+            font-size: 50px;
+        }
+
+        .col2::before{
+            content: '1. ';
+            color: red;
+            font-size: 25px;
+        }
+
+        .col3::after{
+            content: ' - итого';
+            color: aqua;
+            font-size: 30px;
+        }
+        
+        .col4::first-letter{
+            color: black;
+            font-size: 40px;
+        }
+
+        .col5::selection{
+            background-color: blue;
+            color: aqua;
+        }
+
+    </style>
+
+    <div class="container">
+        Контейнер
+        <div class="box col1">Первый блок</div>
+        <div class="box col2">Второй блок</div>
+        <div class="box col3">Третий блок</div>
+        <div class="box col4">Четвертый блок</div>
+        <div class="box col5">Пятый блок</div>
+    </div>
+    
+    <div class="circle"></div>
+
+    <h2 class="h2">Текст</h2>
+
+
+</body>
+</html>

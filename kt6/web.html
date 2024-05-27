@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .glavnoe{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .fulltext{
+        display: grid;
+    }
+
+    .text1{
+        padding: 40px;
+        grid-column: 1/4;
+        justify-self: center;
+        font-size: 3em;
+        font-weight:bold
+    }
+
+    .text2{
+        grid-column: 1/4;
+        justify-self: center;
+        font-size: 1.5em;
+    }
+    .line{
+        grid-column: 1/4;
+        margin: 50px;
+        justify-self: center ;
+        width: 60px;
+        height: 3px;
+        background-color:orange;
+    }
+    .photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+    .gltext{
+        display: grid;
+        padding: 4em;
+    }
+    
+    .text1_1{
+        justify-self: center;
+        align-self: end;
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .text1_2{
+        padding: 1em;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .button{
+        display: grid;
+        justify-self: start;
+        align-self: start;
+        background: #2196f3;
+        color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-family: Tahoma;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 100;
+    }
+
+</style>
+<body>
+
+    <div class="fulltext">
+
+        <div class="text1">
+            OUR CLOTHING BRAND
+        </div>
+
+        <div class="text2">
+            We provide the best brands in Russia. Everything for women and men.
+        </div>
+        
+        <div class="line"></div>
+    </div>
+
+    <div class="glavnoe">
+
+        <div class="gltext">
+            <div class="text1_1">
+                Who are we?
+            </div>
+            <div class="text1_2">
+                We are a team of creative and stylish people who create unique clothes for those who value individuality and a creative approach to style. Our clothes combine modern fashion trends with original design and high quality materials. We strive to highlight your uniqueness and help you express your personality through your image. Our collection includes a variety of styles, from casual wear to evening wear, so there is something for everyone.
+            </div>
+            <a href="#" class="button">BUY</a>
+        </div>
+
+        <div class="photos">
+            <div class="img1">
+                <img class="image" src="photo/1photo.jpg" alt="1photo" width="360px" height="360px">
+            </div>
+            <div class="img2">
+                <img class="image" src="photo/2photo.jpg" alt="2photo" width="360px" height="400px">
+            </div>
+            <div class="img3">
+                <img class="image" src="photo/3photo.jpg" alt="3photo" width="380px" height="240px">
+            </div>
+            <div class="img4">
+                <img class="image" src="photo/4photo.jpg" alt="4photo" width="360px" height="250px">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

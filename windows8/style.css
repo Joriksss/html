@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #dedede;
+}
+.wrapper {
+    height: calc(100vh - 100px);
+    padding: 50px 0 50px 50px;
+    background-color: #222;
+}
+header {
+    font-size: 0;
+    margin: 0 50px 50px 0;
+}
+h1, h3 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    font-weight: 400;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+    text-align: right;
+}
+main {
+    height: 590px;
+    font-size: 0;
+    overflow-x: auto;
+}
+.scroll {
+    width: 2950px;
+    padding-right: 50px;
+}
+.column {
+    height: 540px;
+    width: 210px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.group {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+.group_1 *:not(.column) {
+    background: #f06;
+}
+.group_2 *:not(.column) {
+    background: #f30;
+}
+.group_3 *:not(.column) {
+    background: #fc0;
+}
+.group_4 *:not(.column) {
+    background: #0c0;
+}
+.group_5 *:not(.column) {
+    background: #0c9;
+}
+.group_6 *:not(.column) {
+    background: #06c;
+}
+.group_7 *:not(.column) {
+    background: #66c;
+}
+.group_8 *:not(.column) {
+    background: #63c;
+}
+.group_9 *:not(.column) {
+    background: #c06;
+}
+.small {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.middle {
+    width: 210px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.big {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+.mr0 {
+    margin-right: 0;
+}
+.mb0 {
+    margin-bottom: 0;
+}

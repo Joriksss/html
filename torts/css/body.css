@@ -1,0 +1,235 @@
+.tort2{
+    position: absolute;
+    width: 460px;
+    height: 607px;
+    left: 733px;
+    right: 247px;
+    top: 818px;
+    bottom: 389px;
+}
+
+.list-left{
+    position: absolute;
+    width: 205.36px;
+    height: 206.9px;
+    left: -35.19px;
+    right: 1269.84px;
+    top: 969px;
+    bottom: 638.1px;
+    transform: rotate(2.72deg);
+}
+
+.list-right{
+    position: absolute;
+    width: 202px;
+    height: 210px;
+    left: 456.43px;
+    right: 781.57px;
+    top: 1366px;
+    bottom: 238px;
+    transform: rotate(0.12deg);
+}
+
+.yellow-right{
+    position: absolute;
+    width: 681.64px;
+    height: 493.83px;
+    left: 1474.73px;
+    right: -716.36px;
+    top: 1813.11px;
+    bottom: -492.94px;
+    transform: rotate(-113.22deg);
+}
+
+/* text(description) tort */
+.txt-tort{
+    position: absolute;
+    width: 431px;
+    height: 484px;
+    left: 245px;
+    right: 764px;
+    top: 850px;
+    bottom: 453px;
+}
+
+.txt-h1{
+    position: absolute;
+    width: 363px;
+    height: 84px;
+    left: 0;
+    right: -177px;
+    top: 0;
+    bottom: -477px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txt-h3{
+    position: absolute;
+    width: 428px;
+    height: 156px;
+    left: 0;
+    right: -244px;
+    top: 100px;
+    bottom: -645px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* text with li */
+.li{
+    position: absolute;
+    width: 428px;
+    height: 142px;
+    left: 0;
+    right: -245px;
+    top: 250px;
+    bottom: -811px;
+}
+
+.green-dot1{
+    position: absolute;
+    width: 428px;
+    height: 52px;
+    left: 0;
+    right: -248px;
+    top: 30px;
+    bottom: -1063px;
+}
+
+.green-dot2{
+    position: absolute;
+    width: 428px;
+    height: 78px;
+    left: 0;
+    right: -248px;
+    top: 105px;
+    bottom: -1153px;
+}
+
+.txt-dot{
+/* Заказы оформляются предварительно, минимум за 2 дня до торжества. */
+    position: absolute;
+    width: 404px;
+    height: 52px;
+    left: 25px;
+    right: -248px;
+    top: 0;
+    bottom: -1153px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txt-dot2{
+    /* Окончательная стоимость готового торта зависит от сложности его оформления. Уточнить детали и сделать заказ можно по номеру 8 (914) 707-34-43. */
+    position: absolute;
+    width: 404px;
+    height: 78px;
+    left: 25px;
+    right: -248px;
+    top: 0;
+    bottom: -1217px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.dot1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 168px;
+    top: 0;
+    bottom: -1120px;
+    background: rgb(107, 146, 68);
+    border-radius: 50%;
+}
+
+.dot2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 168px;
+    top: 0;
+    bottom: -1158px;
+    background: rgb(107, 146, 68);
+    border-radius: 50%;
+}
+
+/* button */
+.btn-tort{
+    position: absolute;
+    width: 217px;
+    height: 42px;
+    left: 0;
+    right: 168px;
+    top: 475px;
+    bottom: -1158px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 28px 8px 28px;
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+    border: none;
+}
+
+.btn-tort h1{
+    /* Написать в Whatsapp */
+    position: static;
+    width: 161px;
+    height: 26px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 28px 8px 28px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    /* Шрифт */
+    color: rgb(15, 15, 15);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-tort:hover{
+    box-sizing: border-box;
+    border: 2.2px solid rgb(15, 15, 15);
+    border-radius: 2px;
+    background: rgb(254, 214, 50);
+}
