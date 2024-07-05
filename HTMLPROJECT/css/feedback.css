@@ -1,0 +1,101 @@
+.Feedback{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+}
+
+.Feedback h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.txt-feedback h3{
+    margin-bottom: 0px;
+}
+
+.info-form img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.info-form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.info-form a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* Forma */
+form{
+    margin-top: 20px;
+}
+
+.input-box {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.input-box label{
+    opacity: 0.5;
+    margin: 5px;
+}
+  
+.input-box input,
+.input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #f0f1f8;
+    padding: 0 20px;
+    outline: none !important;
+}
+  
+.input-box textarea {
+    resize: none;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+  
+.message-box {
+    min-height: 110px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 35px;
+
+}
+  
+  /* Стили для самой кнопки */
+  .button input[type="button"] {
+    color: #fff;
+    font-size: 18px;
+    background: #3e2093;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: 0.2s;
+  }
+  
+.button input[type="button"]:hover {
+    background: rgb(0, 0, 207);
+}
+
+/* Valid */
+input.valid{
+    border-color: #36cc36;
+    border: 20px;
+}
+
+input.invalid{
+    border-color: orange;
+    border: 20px;
+}

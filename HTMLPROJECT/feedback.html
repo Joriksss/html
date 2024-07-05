@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerLites</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/feedback.css">
+</head>
+<body>
+    <header>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="company.html">О компании</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="otzivs.html">Отзывы</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+                <li>Скачать: <a href="">Документация</a></li>
+            </ul>
+        </div>
+        <img src="img/logo.jpg" alt="logo" width="200px" height="50px">
+    </nav>
+    </header>
+    <div class="Feedback">
+        <h1>Обратная связь</h1>
+        <div class="txt-feedback">
+            <h3>Есть вопрос или вы хотите оставить отзыв? Используйте любой из удобных способов, чтобы связаться с нами:</h3>
+            <div class="info-form">
+                <h3><img src="img/feedback/tochka.svg" alt="tochka">Заполните форму обратной связи ниже</h3>
+                <h3><img src="img/feedback/tochka.svg" alt="tochka">Напишите нам на электронную почту: <a href="">gulev324@mail.ru</a></h3>
+                <h3><img src="img/feedback/tochka.svg" alt="tochka">Позвоните нам по номеру: <a href="">8 (999) 999-99-99</a></h3>
+            </div>
+        </div>
+        <form action="#">
+            <div class="input-box">
+                <input  type="text" placeholder="Ваше имя" name="name" id="name"/>
+                <label for="name">Только русские буквы</label>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Введите email" name="email" id="email"/>
+                <label for="email">В формате: name@mail.com</label>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Введите телефон" name="phone" id="phone"/>
+                <label for="phone">Например: +7 (999) 999-99-99</label>
+            </div>
+            <div class="input-box message-box">
+                <textarea placeholder="Сообщение"></textarea>
+            </div>
+            <div class="button">
+                <input type="button" value="Отправить" />
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://unpkg.com/imask"></script>
+<script src="form.js"></script>
+<style>
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0; 
+        padding: 0; 
+        height: 100%; 
+    }
+</style>
+</html>

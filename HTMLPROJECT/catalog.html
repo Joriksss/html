@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerLites</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+    <header>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="company.html">О компании</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="otzivs.html">Отзывы</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+                <li>Скачать: <a href="">Документация</a></li>
+            </ul>
+        </div>
+        <img src="img/logo.jpg" alt="logo" width="200px" height="50px">
+    </nav>
+    </header>
+    <div class="catalog">
+        <h1 class="catalog-title">Наш Каталог</h1>
+        <div class="catalog-categories">
+          <button class="catalog-category-btn active" data-category="all">Все</button>
+          <button class="catalog-category-btn" data-category="category1">Компактные powerbank'и</button>
+          <button class="catalog-category-btn" data-category="category2">Автомобильные powerbank'и</button>
+          <button class="catalog-category-btn" data-category="category3">Аксессуары для powerbank'ов</button>
+        </div>
+      
+        <div class="catalog-items">
+          <div class="catalog-item" data-category="all category1">
+            <img src="img/catalog/compbank1.png" alt="Товар 1" class="catalog-item-image">
+            <h3 class="catalog-item-title">PowerBank Ultra Compact</h3>
+            <p class="catalog-item-price">1999 ₽</p>
+            <button class="catalog-item-button">Купить</button>
+          </div>
+          <div class="catalog-item" data-category="all category2">
+            <img src="item2.jpg" alt="Товар 2" class="catalog-item-image">
+            <h3 class="catalog-item-title">Powerbank</h3>
+            <p class="catalog-item-price">2999 ₽</p>
+            <button class="catalog-item-button">Купить</button>
+          </div>
+          <div class="catalog-item" data-category="all category3">
+            <img src="item3.jpg" alt="Товар 3" class="catalog-item-image">
+            <h3 class="catalog-item-title">Товар 3</h3>
+            <p class="catalog-item-price">999 ₽</p>
+            <button class="catalog-item-button">Купить</button>
+          </div>
+          <!-- Добавьте другие товары -->
+        </div>
+      </div>      
+</body>
+<style>
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0; 
+        padding: 0; 
+        height: 100%; 
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const categoryButtons = document.querySelectorAll('.catalog-category-btn');
+    const catalogItems = document.querySelectorAll('.catalog-item');
+
+    categoryButtons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+    const category = this.getAttribute('data-category');
+
+    categoryButtons.forEach(function(b) {
+        b.classList.remove('active');
+    });
+    this.classList.add('active');
+
+    catalogItems.forEach(function(item) {
+        if (category === 'all' || item.getAttribute('data-category').includes(category)) {
+            item.style.display = 'flex';
+        }else {
+            item.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+</html>
